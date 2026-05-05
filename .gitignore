@@ -1,0 +1,38 @@
+# --- Build Directories ---
+# Ignore the folders where Ninja and CMake compile your code
+build/
+out/
+bin/
+
+# --- CMake Artifacts ---
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+_deps/
+
+# --- Compiler & Debugger Artifacts ---
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+
+# --- VS Code & IDE Settings ---
+# We ignore .vscode by default to avoid sharing personal paths (like your Raylib path)
+.cache/
+.clangd/
+
+# --- Raylib Specific ---
+# If you use raylib's examples or auto-generated temp files
+raylib/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
